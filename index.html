@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ustability Hub</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <!-- Top Banner -->
@@ -24,7 +25,7 @@
         <a href="#" class="company-logo">
           <img src="./assets/asset 1.png" alt="company logo" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
           <ul class="flex">
             <li><a href="#" class="hover-link">Product</a></li>
             <li><a href="#" class="hover-link">Customer</a></li>
@@ -36,6 +37,9 @@
             <li><a href="#" class="hover-link primary-button">Sing up</a></li>
           </ul>
         </div>
+        <a href="#" class="nav-toggel hover-link" id="nav-toggle"
+          ><i class="fa-solid fa-bars"></i>
+        </a>
       </div>
     </nav>
 
@@ -150,7 +154,10 @@
     </section>
 
     <section class="big-feature-section">
-      <div class="container flex big-feature-container">
+      <div class="container flex big-feature-container" id="second-big-feature">
+        <div class="feature-img">
+          <img src="./assets/asset 21.png" alt="" />
+        </div>
         <div class="feature-descreption flex">
           <h4>Effortless validation for</h4>
           <h3>Design professionals</h3>
@@ -158,9 +165,6 @@
             Test interfaces, interaction flows, iconography and more, to help
             you create intuitive and delightful experiences for your users.
           </p>
-        </div>
-        <div class="feature-img">
-          <img src="./assets/asset 21.png" alt="" />
         </div>
       </div>
     </section>
@@ -334,5 +338,7 @@
       src="https://kit.fontawesome.com/f27c7efc02.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
